@@ -1,0 +1,13 @@
+# 生成物与本地素材（不要提交成片、素材和日志）
+examples/demo_assets/
+examples/demo_out/
+logs/
+output/
+*.mp4
+*.mov
+*.wav
+*.mp3
+__pycache__/
+.venv/
+.env
+*.key

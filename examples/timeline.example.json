@@ -1,0 +1,27 @@
+{
+  "title": "示例第01集",
+  "output": "demo_out/ep01_demo.mp4",
+  "overwrite": true,
+  "width": 720, "height": 1280, "fps": 24,
+  "font": "C:/Windows/Fonts/msyh.ttc",
+  "subtitle": {"size": 44, "margin": 200},
+
+  "shots": [
+    {"file": "demo_assets/clip1.mp4", "in": 0.0, "out": 4.0},
+    {"file": "demo_assets/clip2.mp4", "in": 0.5, "out": 4.5},
+    {"file": "demo_assets/clip3.mp4", "in": 1.0, "out": 4.6, "hold": 0.4}
+  ],
+  "tail_black": 2.0,
+
+  "music": {"file": "demo_assets/music.wav", "start": 0, "fade_out": 3, "lufs": -24},
+
+  "lines_file": "demo_assets/voice/lines_measured.json",
+  "lines": [
+    {"id": "01", "at": 0.8},
+    {"id": "02", "at": 5.2}
+  ],
+
+  "texts": [
+    {"start": 12.3, "end": 13.9, "text": "下集预告：他到底来没来？", "position": "center"}
+  ]
+}
